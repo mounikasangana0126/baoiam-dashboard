@@ -1,0 +1,57 @@
+.enrolled-courses-text {
+  padding-top: 50px;
+}
+.enrolled-courses {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  border-radius: 12px;
+  flex-direction: column;
+  flex-basis: 24%;
+  border: 1px solid rgb(205, 201, 201);
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 8px 4px rgb(198, 196, 196);
+}
+
+.card-image-section {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  /* align-items: center; */
+}
+.card-image {
+  border-radius: 10px;
+  width: 90%;
+  height: 90%;
+}
+.card-content {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 12px 16px 12px;
+  font-weight: 500;
+}
+.lectures-completed,
+.course-name,
+.last-read {
+  padding-bottom: 12px;
+}
+
+.resume-btn {
+  padding: 3px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(247, 104, 26);
+}
