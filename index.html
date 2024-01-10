@@ -13,76 +13,77 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     />
     <script src="scripts.js" defer></script>
-  
   </head>
   <body>
     <div class="blackshadow" id="blackshadow"></div>
-    <aside class="aside">
-     
-        <div class="image">
-          <img src="./images/brand.jpg" alt="" />
-        </div>
-        <div class="ProfileAndName">
-          <div class="profilePic">
-            <img
+    <aside class="aside" id="aside">
+      <div class="image">
+        <img src="./images/brand.jpg" alt="" />
+      </div>
+      <div class="ProfileAndName">
+        <div class="profilePic">
+          <img
             src="https://imgs.search.brave.com/duA2S9Wsl1l-UlkFs_zNe144nS0QHgngWR8l3gwhS7A/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9mdW5r/eXN0YXR1cy5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjIv/MTIvSGFudW1hbi1p/bWFnZXMzNS5qcGc"
             alt=""
-            />
-          </div>
-          <h1>Lord Hanuman</h1>
-          <p>srihanuman@gmail.com</p>
+          />
         </div>
-        <div class="links">
-          <div class="link">
-            <a href="#"
+        <h1>Lord Hanuman</h1>
+        <p>srihanuman@gmail.com</p>
+      </div>
+      <div class="links">
+        <div class="link">
+          <a href="#"
             ><span class="material-symbols-outlined"> home </span>
             <h2>Home</h2></a
-            >
-          </div>
-          <div class="link">
-            <a href="#" style="box-shadow:  4px 8px 8px rgb(255, 68, 0); color: orangered;" >
-              <span class="material-symbols-outlined"> person </span>
-              <h2>Profile</h2></a
-              >
-            </div>
-            <div class="link">
-              <a href="#"
-              ><span class="material-symbols-outlined"> laptop_mac </span>
-              <h2>Course</h2></a
-              >
-            </div>
-            <div class="link">
-              <a href="#"
-              ><span class="material-symbols-outlined"> developer_guide </span>
-              <h2>Course</h2></a
-              >
-            </div>
-            <div class="link">
-              <a href="#">
-                <span class="material-symbols-outlined"> live_tv </span>
-                <h2>Live Classes</h2></a
-                >
-              </div>
-              <div class="link">
-                <a href="#">
-                  <span class="material-symbols-outlined"> logout </span>
-                  <h2>Logout</h2></a
+          >
+        </div>
+        <div class="link">
+          <a
+            href="#"
+            style="box-shadow: 4px 8px 8px rgb(255, 68, 0); color: orangered"
+          >
+            <span class="material-symbols-outlined"> person </span>
+            <h2>Profile</h2></a
+          >
+        </div>
+        <div class="link">
+          <a href="#"
+            ><span class="material-symbols-outlined"> laptop_mac </span>
+            <h2>Course</h2></a
+          >
+        </div>
+        <div class="link">
+          <a href="#"
+            ><span class="material-symbols-outlined"> developer_guide </span>
+            <h2>Course</h2></a
+          >
+        </div>
+        <div class="link">
+          <a href="#">
+            <span class="material-symbols-outlined"> live_tv </span>
+            <h2>Live Classes</h2></a
+          >
+        </div>
+        <div class="link">
+          <a href="#">
+            <span class="material-symbols-outlined"> logout </span>
+            <h2>Logout</h2></a
           >
         </div>
         <div class="down">
-          <button class="in"><span class="material-symbols-outlined">
-            expand_less
-            </span></button>
-          </div>
+          <button class="in">
+            <span class="material-symbols-outlined"> expand_less </span>
+          </button>
+        </div>
       </div>
     </aside>
     <section class="container">
       <div class="just"></div>
-      <main class="main">
+      <main class="main" id="main">
         <div class="down">
-        <button class="in"><span class="material-symbols-outlined">
-          expand_more
-          </span></button>
+          <button class="in">
+            <span class="material-symbols-outlined"> expand_more </span>
+          </button>
         </div>
         <section id="head-section-content">
           <header class="head-section" id="head-section">
@@ -92,7 +93,10 @@
             </section>
             <section class="searchbar-section">
               <input type="text" class="search-bar" placeholder="Search" />
-              <span class="material-symbols-outlined bell-icon">
+              <span
+                class="material-symbols-outlined bell-icon"
+                id="notifications"
+              >
                 notifications
               </span>
             </section>
@@ -100,16 +104,18 @@
         </section>
         <section class="form-section" id="form-section">
           <form class="form">
-            <section
-              class="close-details-section"
-              id="close-details-section"
-            >
-            <div class="close-details" id="close-details">&times;</div>
-          </section>
+            <section class="close-details-section" id="close-details-section">
+              <div class="close-details" id="close-details">&times;</div>
+            </section>
             <div class="profile-image-section">
               <section class="profile-image"></section>
               <br />
-              <input type="file" class="upload-photo" accept="image/*" placeholder="Select Profile Photo" />
+              <input
+                type="file"
+                class="upload-photo"
+                accept="image/*"
+                placeholder="Select Profile Photo"
+              />
             </div>
             <br />
             <br />
@@ -119,9 +125,7 @@
                 <input type="text" id="middle-name" placeholder="First name" />
               </div>
               <div class="form-element">
-                <label for="middle-name" class="middle-name"
-                  ></label
-                >
+                <label for="middle-name" class="middle-name"></label>
                 <input type="text" id="middle-name" placeholder="Middle name" />
               </div>
               <div class="form-element">
@@ -134,9 +138,7 @@
                 <input type="text" id="email" placeholder="xxxxxx@Email.com" />
               </div>
               <div class="form-element">
-                <label for="mobile-number" class="mobile-number"
-                  ></label
-                >
+                <label for="mobile-number" class="mobile-number"></label>
 
                 <input
                   type="text"
@@ -145,9 +147,7 @@
                 />
               </div>
               <div class="form-element">
-                <label for="college-name" class="college-name"
-                  ></label
-                >
+                <label for="college-name" class="college-name"></label>
 
                 <input
                   type="text"
@@ -156,9 +156,7 @@
                 />
               </div>
               <div class="form-element">
-                <label for="graduation-year" class="graduation-year"
-                  ></label
-                >
+                <label for="graduation-year" class="graduation-year"></label>
 
                 <input
                   type="text"
@@ -188,9 +186,7 @@
               <section class="registered-name-section">
                 <h2 class="registered-name">Lord Hanuman</h2>
                 <button type="button" class="edit-details" id="edit-details">
-                  <span class="material-symbols-outlined">
-                    edit
-                    </span>
+                  <span class="material-symbols-outlined"> edit </span>
                 </button>
               </section>
               <hr />
@@ -202,7 +198,8 @@
                     >Pragati Engineering college
                   </div>
                   <div class="registered-college-name element">
-                    <span class="material-symbols-outlined"> workspace_premium</span
+                    <span class="material-symbols-outlined">
+                      workspace_premium</span
                     >Master of Computer Application
                   </div>
                   <div class="registered-graduation-year element">
@@ -210,7 +207,7 @@
                     >2023
                   </div>
                 </div>
-                <div class="vl"></div>
+                <!-- <div class="vl"></div> -->
                 <div class="second-part">
                   <div class="registered-mobile-number element">
                     <span class="material-symbols-outlined"> call </span
@@ -222,27 +219,39 @@
                     >xxxx@gmail.com
                   </div>
                   <div class="registered-email-id element">
-                    <span class="material-symbols-outlined">
-                      link
-                      </span>
-                    hanumn.linkedin.com
+                    <span class="material-symbols-outlined"> link </span
+                    >hanumn.linkedin.com
                   </div>
                 </div>
               </div>
             </section>
             <div class="statistics">
               <div class="static">
-                <div class="divi"><h2>20hr</h2><p>Tracked time</p></div>
-                <div class="divi"><h2>15</h2><p>Finished tasks</p></div>
-                <div class="divi"><h2><span class="material-symbols-outlined">
-                  widgets
-                  </span></h2><p>New widget</p></div>
-              </div>
+                <div class="div1">
+                  <div class="divi">
+                    <h2>20hr</h2>
+                    <p>Tracked time</p>
+                  </div>
+                </div>
 
+                <div class="div2">
+                  <div class="divi">
+                    <h2>15</h2>
+                    <p>Finished tasks</p>
+                  </div>
+                </div>
+                <div class="div3">
+                  <div class="divi">
+                    <h2>
+                      <span class="material-symbols-outlined"> widgets </span>
+                    </h2>
+                    <p>New widget</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
         </section>
-
 
         <section id="courses">
           <h1 class="enrolled-courses-text">Enrolled courses</h1>
@@ -309,7 +318,7 @@
             </section>
           </section>
         </section>
-                    </main>
+      </main>
     </section>
   </body>
 </html>

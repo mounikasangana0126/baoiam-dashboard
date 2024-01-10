@@ -54,4 +54,13 @@
   justify-content: center;
   align-items: center;
   background-color: rgb(247, 104, 26);
+  cursor: pointer;
+}
+
+.resume-btn:active {
+  transform: scale(0.95);
+  box-shadow: 0px 0px 6px 2px rgb(163, 160, 160);
+}
+
+@media only screen and (max-width: 950px) {
 }
